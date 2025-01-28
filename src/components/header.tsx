@@ -13,7 +13,7 @@ export const Header = () => {
         <header className="sticky top-0 z-40 border-b bg-white">
             <div className="container px-2 flex h-16 items-center justify-between py-4">
                 <div className="flex gap-6 md:gap-8">
-                    <Link aria-label="LectureKit" href="/" className="items-center space-x-2 md:flex">
+                    <Link aria-label="Coursee" href="/" className="items-center space-x-2 md:flex">
                         <Logo />
                     </Link>
                     <nav className="gap-8 flex">
@@ -32,7 +32,7 @@ export const Header = () => {
                 </div>
                 <div className="flex items-center gap-2">
                     <Link
-                        href={`https://github.com/geiger01/lecturekit-template-1`}
+                        href={`https://github.com/digitalproductmedia/coursee-template-1`}
                         target='_blank'
                         className="hover:opacity-80"
                     >

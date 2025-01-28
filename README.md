@@ -1,4 +1,4 @@
-Here's the [live template](https://lecturekit-template-1.vercel.app).
+Here's the [live template](https://coursee-template-1.vercel.app).
 
 ## Getting Started
 
@@ -16,4 +16,4 @@ pnpm dev
 bun dev
 ```
 
-Open [https://www.lecturekit.io](https://www.lecturekit.io) with your browser to see the result.
+Open [https://coursee.ai](https://coursee.ai) with your browser to see the result.

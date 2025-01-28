@@ -4,19 +4,19 @@ import { LessonVideo } from "@/components/lesson-video";
 import { ILesson } from "@/types";
 
 async function getLessons(courseId: string, lessonId: string) {
-    const res = await fetch(`https://www.lecturekit.io/api/v1/courses/${courseId}/lessons/${lessonId}`, {
+    const res = await fetch(`https://coursee.ai/api/v1/courses/${courseId}/lessons/${lessonId}`, {
         cache: 'no-store',
         headers: {
-            'x-api-key': process.env.LECTUREKIT_API_KEY || ''
+            'x-api-key': process.env.COURSEE_API_KEY || ''
         }
     });
 
     const data = await res.json();
 
-    const lessonsRes = await fetch(`https://www.lecturekit.io/api/v1/courses/${courseId}/lessons`, {
+    const lessonsRes = await fetch(`https://coursee.ai/api/v1/courses/${courseId}/lessons`, {
         cache: 'no-store',
         headers: {
-            'x-api-key': process.env.LECTUREKIT_API_KEY || ''
+            'x-api-key': process.env.COURSEE_API_KEY || ''
         }
     });
 

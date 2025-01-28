@@ -1,10 +1,10 @@
 import { redirect } from 'next/navigation';
 
 async function getFirstLesson(courseId: string) {
-    const res = await fetch(`https://www.lecturekit.io/api/v1/courses/${courseId}/lessons`, {
+    const res = await fetch(`https://coursee.ai/api/v1/courses/${courseId}/lessons`, {
         cache: 'no-store',
         headers: {
-            'x-api-key': process.env.LECTUREKIT_API_KEY || ''
+            'x-api-key': process.env.COURSEE_API_KEY || ''
         }
     });
 

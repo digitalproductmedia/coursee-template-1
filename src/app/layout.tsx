@@ -6,7 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'LectureKit Template',
+  title: 'Coursee Template',
   description: '',
 };
 

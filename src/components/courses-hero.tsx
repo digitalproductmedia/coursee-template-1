@@ -14,7 +14,7 @@ export const CoursesHero = ({ courses }: ICoursesHeroProps) => {
             <div className="max-w-screen-xl mx-auto px-4 py-20 md:px-8 text-gray-600">
                 <div className="text-center w-full">
                     <h1 className="text-4xl text-gray-800 font-extrabold md:text-5xl mb-3">
-                        LectureKit Starter Template
+                        Coursee Starter Template
                     </h1>
                     <p className="text-lg">
                         Explore the Blueprint for Your Custom Course Platform

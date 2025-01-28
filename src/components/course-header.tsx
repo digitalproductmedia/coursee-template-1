@@ -14,7 +14,7 @@ export const CourseHeader = ({ course }: ICourseHeaderProps) => {
         <header className={"sticky top-0 z-40 bg-white"}>
             <div className="px-3 flex h-16 items-center justify-between py-4 border-b">
                 <div className="flex max-w-full truncate">
-                    <Link aria-label="LectureKit" href="/" className="items-center space-x-2 hidden sm:flex">
+                    <Link aria-label="Coursee" href="/" className="items-center space-x-2 hidden sm:flex">
                         <Logo mini className="w-10 h-10" />
                     </Link>
                     <div className="flex items-center gap-2 sm:pl-2 sm:ml-3 sm:border-l">
@@ -35,7 +35,7 @@ export const CourseHeader = ({ course }: ICourseHeaderProps) => {
                 </div>
                 <div className="flex items-center gap-5">
                     <Link
-                        href={`https://github.com/geiger01/lecturekit-template-1`}
+                        href={`https://github.com/digitalproductmedia/coursee-template-1`}
                         target='_blank'
                         className="hover:opacity-80"
                     >

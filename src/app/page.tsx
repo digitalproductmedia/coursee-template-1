@@ -3,14 +3,14 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 
 async function getCourses() {
-  if (!process.env.LECTUREKIT_API_KEY) {
+  if (!process.env.COURSEE_API_KEY) {
     throw new Error('Missing api key, please add your api key in the `.env.local` file.');
   }
 
-  const res = await fetch(`https://www.lecturekit.io/api/v1/courses`, {
+  const res = await fetch(`https://coursee.ai/api/v1/courses`, {
     cache: 'no-store',
     headers: {
-      'x-api-key': process.env.LECTUREKIT_API_KEY || ''
+      'x-api-key': process.env.COURSEE_API_KEY || ''
     }
   });
 
